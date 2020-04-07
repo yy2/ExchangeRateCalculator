@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cantora+One&display=swap');
+
+:root {
+    --primary-color: #5fbaa7;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Cantora One', sans-serif;
+}
+
+img {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.swap-btn {
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 12px;
+}
+
+.currency select {
+    border-radius: 5px;
+    height: 25px;
+    /* margin-right: 100px; */
+}
+
+.currency input {
+    border-radius: 5px;
+    height: 25px;
+    border: 1px solid #a2a9b3;
+    text-align: right;
+}
+
+.swap-btn-container {
+    margin: 10px 0;
+}
+
+#rate {
+    margin-left: 35px;
+}
